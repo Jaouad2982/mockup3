@@ -1,0 +1,160 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	margin: 40px 40px 40px 40px;
+	font-size: 10px;
+	background: #ccc;
+}
+
+hr{
+	border: 2px solid black;
+}
+
+.wrapper{
+	width: 100%;
+}
+
+.name{
+	margin-right: 110%;
+}
+
+.logo{
+	margin-bottom: -80px;
+}
+
+section{
+	content:" ";
+	display: block;
+	clear: both;
+}
+
+/* End Common style */
+
+header{
+	background: #e8deef;
+	overflow: hidden;
+}
+
+header div.logo{
+	width: 50%;
+	float: left;
+	font-family: 'Lobster', cursive;
+}
+
+header div.name{
+	margin-right: 90px;
+	margin-top:40px;
+	text-align: right;
+	width: 50%;
+	float: right;
+}
+
+header div.name h1,h2{
+	margin-right: 5%;
+	font-family: 'Noto Serif', serif;
+}
+
+header div.logo h1{
+	text-align: center;
+	font-size: 170%;
+	margin-top: 18%;
+}
+
+header div.logo h1 #span1{
+	color:#ff7f50;
+	font-style: italic;
+	font-size: 14px;
+}
+
+/* End header */
+
+section.first-section{
+	position: relative;
+	min-height: 600px;
+	background: url("https://www.isolutiononline.com/images/slide-technology.jpg") no-repeat 30% 10%;
+	background-size: 100% 100%;
+	image-rendering: auto;
+	image-rendering: crisp-edges;
+	image-rendering: pixelated;
+
+}
+
+section.first-section h3{
+	text-align: center;
+	color: grey;
+	font-weight: bold;
+	font-size: 13px;
+	font-weight: 300;
+	font-style: italic;
+}
+
+section.second-section div img{
+	width: 100%;
+	height: 20em;
+}
+
+section.second-section h2{
+	margin-top: 5%;
+	text-indent: 16px;
+}
+
+section.second-section p{
+	text-align: left;
+	border: 1px solid black;
+	width: 31%;
+	border-radius:7px;
+	background:#afa0bc;
+	font-style: italic;
+	font-size: 12px;
+}
+
+section.second-section a {
+	text-decoration: none;
+}
+
+section.second-section a:hover{
+	color: #2d1c3a;
+}
+
+section.second-section p:first-letter{
+	font-size: 200%;
+	color: black;
+}
+
+
+/* end section image */
+
+/* footer*/
+footer{
+	font-family: 'Arvo', serif;
+	font-size: 15px;
+	color:#1b1223;
+}
+
+/* responsivness for header and first section */
+
+@media only screen and(max-width:768px){
+	body{
+		font-size: 10px;
+	}
+	header div.logo {
+		width: 100%;
+		float: none;
+	}
+
+	header div.name {
+		margin-left: 200%;
+		text-align: center;
+		width: 100%;
+		float: none;
+	}
+}
+
+
+
+
+
+
